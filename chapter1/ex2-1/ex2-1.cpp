@@ -1,5 +1,5 @@
 /*
-Open and display an image form file.
+Open and display an image from file.
 */
 
 #include "highgui.h"
