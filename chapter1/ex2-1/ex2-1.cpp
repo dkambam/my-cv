@@ -8,7 +8,7 @@ Open and display an image from file.
 int main( int argc, char *argv[] ){
 
 	if( argc != 2 ){
-		fprintf(stderr, "invalid arguments. ");
+		fprintf(stderr, "Error: invalid arguments.\n");
 		fprintf(stderr, "Usage:\n\t%s <image_path>\n", argv[0]);
 		exit(1);
 	}
