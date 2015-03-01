@@ -3,7 +3,7 @@ LFLAGS = `pkg-config --libs opencv`
 
 
 open_image: ex2-2.cpp
-	c++ $(CFLAGS) $(LFLAGS) ex2-2.cpp -o open_image.out
+	c++ $(CFLAGS) $(LFLAGS) ex2-2.cpp -o open_video.out
 
 clean:
 	rm *.out
